@@ -1,17 +1,24 @@
-// Поместите настраиваемые сочетания клавиш в этот файл, чтобы перезаписать клавиши по умолчанию.
 [
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
     {
         "key": "ctrl+enter",
         "command": "clojureVSCode.evalAndShowResult"
     },
     {
-        "key": "ctrl+d",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.showCommands"
     },
     {
-        "key": "shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
     }
 ]
