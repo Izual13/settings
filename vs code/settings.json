@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "clojureVSCode.autoStartNRepl": false,
+    "workbench.colorTheme": "Visual Studio Dark"
+}
