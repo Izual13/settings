@@ -10,15 +10,15 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+enter",
-        "command": "clojureVSCode.evalAndShowResult"
-    },
-    {
         "key": "ctrl+shift+a",
         "command": "workbench.action.showCommands"
     },
     {
         "key": "ctrl+shift+p",
         "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "clojureVSCode.eval"
     }
 ]

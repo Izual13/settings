@@ -1,5 +1,7 @@
 {
     "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Visual Studio Dark",
     "clojureVSCode.autoStartNRepl": false,
-    "workbench.colorTheme": "Visual Studio Dark"
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
 }
